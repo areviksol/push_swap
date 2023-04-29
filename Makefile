@@ -6,9 +6,9 @@ NAME	= push_swap
 SRC_PATH = src/
 OBJ_PATH = obj/
 
-SRC		= main.c f.c h.c\
-		filling.c p.c\
-		operations.c v.c vvvv.c \
+SRC		= main.c utils2.c str_util.c\
+		filling.c split.c\
+		operations.c valid_helper.c arg.c \
 		sort.c stackhelpers.c\
 		utils.c valid.c oper.c\
 		helpers.c op.c\
